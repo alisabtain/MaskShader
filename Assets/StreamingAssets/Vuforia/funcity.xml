@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="CuboidBox.Top" size="0.213000 0.289993"/>
+        <ImageTarget name="CuboidBox.Back" size="0.213000 0.094998"/>
+        <ImageTarget name="CuboidBox.Left" size="0.290000 0.094975"/>
+        <ImageTarget name="CuboidBox.Bottom" size="0.213000 0.289993"/>
+        <ImageTarget name="CuboidBox.Right" size="0.290000 0.094975"/>
+        <ImageTarget name="CuboidBox.Front" size="0.213000 0.094998"/>
+        <MultiTarget name="CuboidBox">
+            <Part name="CuboidBox.Left" translation="-0.10649999976158142 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="CuboidBox.Right" translation="0.10649999976158142 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="CuboidBox.Front" translation="0 0 0.14499999582767487" rotation="AD: 1 0 0 0"/>
+            <Part name="CuboidBox.Back" translation="0 0 -0.14499999582767487" rotation="AD: 0 1 0 180"/>
+            <Part name="CuboidBox.Top" translation="0 0.04749999940395355 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="CuboidBox.Bottom" translation="0 -0.04749999940395355 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
